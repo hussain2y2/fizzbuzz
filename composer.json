@@ -1,0 +1,25 @@
+{
+    "name": "hussain/fizz-buzz",
+    "type": "project",
+    "description": "Fizz Buzz Game",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hussain Ahmad",
+            "email": "engrhusainahmad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
